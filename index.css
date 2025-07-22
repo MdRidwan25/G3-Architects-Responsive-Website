@@ -329,11 +329,15 @@ font-weight: 400;
 .navbar,
  .nav-links,
  .teams,
-
  .features {
 
 flex-direction: column;
     
+}
+.footer-section{
+
+    display: grid;
+grid-template-columns: repeat(1, 1fr);
 }
 
 #experiense-badge{
